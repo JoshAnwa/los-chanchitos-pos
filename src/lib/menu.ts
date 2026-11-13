@@ -1,0 +1,31 @@
+import type { Product } from "./pos";
+
+// Fuente: lista enviada por el negocio. Las categorías sólo organizan la pantalla.
+export const initialMenu: Product[] = [
+  { id: "tacos", name: "Tacos", category: "Antojitos", price: 25, detail: "Presentación por confirmar" },
+  { id: "cemitas", name: "Cemitas", category: "Antojitos", price: 30, detail: "Cemita" },
+  { id: "tacos-dorados", name: "Tacos dorados", category: "Antojitos", price: 25, detail: "Presentación por confirmar" },
+  { id: "kilo", name: "Kilo", category: "Por peso", price: 310, detail: "1 kg · producto por confirmar" },
+  { id: "medio-kilo", name: "Medio kilo", category: "Por peso", price: 170, detail: "½ kg · producto por confirmar" },
+  { id: "cuarto-kilo", name: "Cuarto de kilo", category: "Por peso", price: 100, detail: "¼ kg · producto por confirmar" },
+  { id: "mojarra", name: "Mojarra", category: "Platillos", price: 120, detail: "Platillo" },
+  { id: "pozole", name: "Pozole", category: "Platillos", price: 80, detail: "Platillo" },
+  { id: "mole-panza", name: "Mole de panza", category: "Platillos", price: 90, detail: "Platillo" },
+  { id: "mixiote", name: "Mixiote de carnero", category: "Platillos", price: 90, detail: "Platillo" },
+  { id: "pollo", name: "Pollo", category: "Platillos", price: 80, detail: "Platillo" },
+  { id: "desayuno", name: "Desayuno", category: "Menú del día", price: 80, detail: "En el local" },
+  { id: "desayuno-llevar", name: "Desayuno para llevar", category: "Menú del día", price: 85, detail: "Para llevar" },
+  { id: "comida-corrida", name: "Comida corrida", category: "Menú del día", price: 90, detail: "En el local" },
+  { id: "comida-llevar", name: "Comida corrida para llevar", category: "Menú del día", price: 95, detail: "Para llevar" },
+  { id: "agua-litro", name: "Agua · 1 litro", category: "Bebidas", price: 30, detail: "1 litro" },
+  { id: "agua-medio", name: "Agua · medio litro", category: "Bebidas", price: 20, detail: "½ litro" },
+  { id: "refresco", name: "Refresco", category: "Bebidas", price: 25, detail: "Presentación por confirmar" },
+  { id: "botana", name: "Botana", category: "Extras", price: 20, detail: "Botana" },
+  { id: "comida-litro", name: "Comida · 1 litro", category: "Por litro", price: 150, detail: "1 litro · producto por confirmar" },
+  { id: "comida-medio", name: "Comida · medio litro", category: "Por litro", price: 80, detail: "½ litro · producto por confirmar" },
+  { id: "arroz-litro", name: "Arroz · 1 litro", category: "Por litro", price: 70, detail: "1 litro" },
+  { id: "arroz-medio", name: "Arroz · medio litro", category: "Por litro", price: 35, detail: "½ litro" },
+  { id: "frijoles-litro", name: "Frijoles · 1 litro", category: "Por litro", price: 70, detail: "1 litro" },
+  { id: "frijoles-medio", name: "Frijoles · medio litro", category: "Por litro", price: 35, detail: "½ litro" },
+  { id: "sopa-crema", name: "Orden de sopa o crema", category: "Extras", price: 25, detail: "Orden" },
+];
