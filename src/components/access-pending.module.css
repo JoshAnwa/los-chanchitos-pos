@@ -1,0 +1,7 @@
+.screen { min-height:100dvh; padding:30px; display:grid; place-items:center; background:#f7f8f3; }
+.screen section { width:min(460px,100%); border:1px solid #dfe5d7; padding:32px; border-radius:14px; background:white; }
+.screen section > svg { display:block; margin-top:30px; color:#7d916c; }
+.business { margin-left:13px; font-size:12px; color:#6f7d62; }
+.screen h1 { font-size:27px; font-weight:600; letter-spacing:-.04em; margin:18px 0 13px; }
+.screen p { font-size:14px; line-height:1.8; color:#6c785f; }
+.screen button { min-height:46px; padding:10px 16px; color:white; background:#344f2f; border:0; border-radius:8px; margin-top:15px; }

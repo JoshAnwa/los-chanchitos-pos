@@ -1,0 +1,13 @@
+.placeholder {
+  width: 64px;
+  height: 64px;
+  flex: 0 0 64px;
+  border: 2px solid #edb823;
+  border-radius: 14px;
+  display: inline-grid;
+  place-items: center;
+  color: inherit;
+  overflow: hidden;
+  background: #e9a900;
+}
+.placeholder img { width: 100%; height: 100%; object-fit: contain; display: block; }

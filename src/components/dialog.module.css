@@ -1,0 +1,9 @@
+.dialog { width: min(520px, calc(100% - 32px)); max-height: calc(100dvh - 40px); border: 1px solid var(--line); border-radius: 18px; padding: 0; color: var(--ink); background: white; box-shadow: 0 24px 100px #0003; }
+.dialog::backdrop { background: #171d24a3; backdrop-filter: blur(3px); }
+.inner { padding: 24px; }
+.inner > header { display: flex; align-items: center; justify-content: space-between; gap: 16px; margin-bottom: 20px; }
+.inner h2 { margin: 0; font-size: 22px; font-weight: 720; letter-spacing: -.04em; }
+.inner > header button { width: 44px; height: 44px; border: 1px solid var(--line); background: white; border-radius: 10px; color: var(--muted); display: grid; place-items: center; }
+@media (max-width: 480px) { .inner { padding: 18px; } }
+.dialog { width:min(620px,calc(100% - 24px)); }.inner h2 { font-size:28px; line-height:1.25; }.inner>header button { flex-shrink:0; width:50px; height:50px; }.inner { padding:26px; }
+@media(max-width:480px) { .inner { padding:20px; }.inner h2 { font-size:25px; } }
