@@ -1,0 +1,39 @@
+:root {
+  --ink: #272321;
+  --muted: #605752;
+  --paper: #f7f5f1;
+  --card: #ffffff;
+  --line: #ded7d0;
+  --brand: #852257;
+  --brand-dark: #6b1944;
+  --blue: #2883a4;
+  --blue-soft: #e7f6fc;
+  --yellow-soft: #fff4c9;
+  --orange: var(--brand);
+  --orange-dark: var(--brand-dark);
+  --yellow: #ffc83d;
+  --green: #2d7a4b;
+  --nav: #1b1b18;
+  --danger: #c53c2e;
+  --shadow: 0 10px 30px rgba(30, 26, 18, 0.07);
+}
+
+* { box-sizing: border-box; }
+html, body { margin: 0; min-height: 100%; background: var(--paper); color: var(--ink); }
+body { font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size:18px; line-height:1.5; }
+button, input, textarea, select { font: inherit; }
+button { cursor: pointer; }
+a { color: inherit; text-decoration: none; }
+::selection { background: #f4c6e1; }
+:focus-visible { outline: 3px solid #2883a4; outline-offset: 3px; }
+button:disabled { cursor: not-allowed; }
+@media print {
+  body * { visibility: hidden; }
+  dialog[open] { position:absolute; inset:0; margin:0; padding:0; max-width:none; max-height:none; border:0; box-shadow:none; overflow:visible; }
+  dialog::backdrop { background:transparent; backdrop-filter:none; }
+}
+
+.sr-only {
+  position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
+  overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0;
+}
